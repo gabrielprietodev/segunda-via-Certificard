@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Aula10-Portfólio</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <div class="container">
+    <header class="cabecalho">
+      <div class="perfil">
+        <img class="perfil-foto" src=data:image/jpeg;base64,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 />
+        <div class="titulo">
+          <h1>Gabriel Prieto</h1>
+          <h3>Desenvolvedor jr #imersaodev</h3>
+        </div>
+      </div>
+      <div class="tema">
+        <button onclick="mudatema()">alterar tema</button>
+      </div>
+    </header>
+    <main class="projetos">
+      <ul>Projetos</ul>
+      <li class="projetos-item">
+        <p> Conver💲or de moeda💲</p>
+        <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="GRObXrV" data-user="gabriel-prieto-the-bashful" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+          <span>See the Pen <a href="https://codepen.io/gabriel-prieto-the-bashful/pen/GRObXrV">
+              Conversor de moedas - ID3</a> by Gabriel Prieto (<a href="https://codepen.io/gabriel-prieto-the-bashful">@gabriel-prieto-the-bashful</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+      </li>
+      <li class="projetos-item">
+        <p>🎥Aluraflix</p>
+        <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="LYeYwaQ" data-user="gabriel-prieto-the-bashful" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+          <span>See the Pen <a href="https://codepen.io/gabriel-prieto-the-bashful/pen/LYeYwaQ">
+              Aluraflix - dia 5</a> by Gabriel Prieto (<a href="https://codepen.io/gabriel-prieto-the-bashful">@gabriel-prieto-the-bashful</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+      </li>
+      <li class="projetos-item">
+        <p>📋Tabela de Classificação</p>
+        <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="popjNEo" data-user="gabriel-prieto-the-bashful" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+          <span>See the Pen <a href="https://codepen.io/gabriel-prieto-the-bashful/pen/popjNEo">
+              Tabela de classificação</a> by Gabriel Prieto (<a href="https://codepen.io/gabriel-prieto-the-bashful">@gabriel-prieto-the-bashful</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+      </li>
+      <li class="projetos-item">
+        <p>🃏Super Trunfo dia7</p>
+        <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="eYyJJjo" data-user="gabriel-prieto-the-bashful" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+          <span>See the Pen <a href="https://codepen.io/gabriel-prieto-the-bashful/pen/eYyJJjo">
+              Super Trunfo - Dia 7</a> by Gabriel Prieto (<a href="https://codepen.io/gabriel-prieto-the-bashful">@gabriel-prieto-the-bashful</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+      </li>
+
+    </main>
+
+  </div>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

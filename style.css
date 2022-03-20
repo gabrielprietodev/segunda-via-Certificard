@@ -1,0 +1,83 @@
+@import url('https://i.pinimg.com/474x/68/d0/32/68d032c1e5afd5ca06ed64f607899f51.jpg');
+
+body{
+  background: gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+  font-family: 'Oswald', sans-serif;
+}
+
+.container {
+  background: #696969;
+  color: #1C1C1C;
+  margin: 64;
+    border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  padding: 64px
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between
+}
+.perfil {
+  display: flex;
+  
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.titulo{
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h3 {
+  font-weight: 40;
+  font-size: 24px;
+}
+.tema button {
+  align-self: flex-end;
+  font-weight: 400;
+font-size: 24px;
+  padding: 8px 16px;
+  background: #696969;
+  border-radius: 100px;
+}
+.projetos{
+  display: flex;
+  flex-direction: column;
+    font-weight: 700;
+  font-size: 40px;
+  
+}
+.projetos-item {
+  list-style-type: none;
+  font-size: 24px;
+  line-height: 48px
+}
+
+.projetos-item a {
+  color: #1C1C1C;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #F6F6F6;
+}
+.dark.projetos {
+  color: #1c1c1c;
+}
+.dark.tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
